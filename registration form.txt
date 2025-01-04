@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+    <center>
+        <h1>
+            Registration Form for Annual Day
+        </h1>
+    </center>
+</title>
+</head>
+<body bgcolor = "white">
+<center><b><i>Registration Form For College Annual Day</i></b></center>
+<h1>
+</h1>
+<form name = "f1" align = "center" onsubmit = "return validateForm()">
+    <h1></h1>
+Name : &nbsp;
+<input type = "text" id = "name" /><br>
+<h1>
+</h1>
+Roll No : &nbsp;
+<input type = "text" id = "rollno" /><br>
+<h1>
+</h1>
+Event Name: &nbsp;
+<input type = "text" id = "event_name" /><br>
+<h1></h1>
+Team size : &nbsp;
+<input type = "text" id = "ts" /><br>
+
+<h1>
+
+</h1>
+<center><input type = "submit" value= "submit"></center>
+</form>
+</body>
+</html>
